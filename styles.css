@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#word-bank {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.word {
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: grab;
+}
+
+.sentence {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    min-height: 50px;
+    margin-bottom: 20px;
+}
+
+.word-placeholder {
+    display: inline-block;
+    min-width: 60px;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+#check-button, #clear-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+}
+
+#result {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#lives {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
